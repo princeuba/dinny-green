@@ -1,0 +1,393 @@
+// rules start here 
+*{
+    margin: 0;
+    padding: 0;  
+
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    width: 100vw;   
+    .nav-one{
+        display: flex;
+        width: 100%;
+        height: 2.05rem;
+        
+
+        text-align: center;
+        background-color: #ffffff;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 0.7rem;
+        line-height: 18px;
+        /* identical to box height */
+
+
+        color: #003412;
+        align-content: center;
+        padding-top: 10px;
+        
+
+    
+        .call-one{
+            margin-left: 80px;
+            
+        }
+        .support{
+            margin-left: 50px;
+        }
+        .login{
+            margin-left: 770px;
+            a{
+                text-decoration: none;
+            }
+        }
+        .register{
+            margin-left: 30px;
+            
+            
+            
+
+            
+            .nav-1{
+                margin-top: -10px;
+                padding: 7px 17px;
+                background-color: #038C33;
+                cursor: pointer;
+
+                border-radius: 3.33px;
+                color:  #F9FCFE;
+                font-family: Poppins;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 12px;
+                line-height: 18px;
+                /* identical to box height */
+
+
+                /* SMS/color/menu/bg */
+
+            }
+            
+        }
+        
+    
+        
+        
+    }
+    .nav-two{
+        display: flex;
+        background-color: #003412;
+        width: 100%;
+        height: 83px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 170.9%;
+        /* or 27px */
+
+
+        color: #FFFFFF;
+        
+        
+        .logo-one{
+            width: 70px;
+            margin-left: 250px;
+            margin-top: 17px;
+            background-color:#003412 ;
+            
+        }
+        .list{
+            
+            ul{
+                display: flex;
+                list-style: none;
+                margin-left: 200px;
+                padding-top: 30px;
+                
+                li{
+                    margin-right: 55px;
+                    a{
+                        color: white;
+                        text-decoration: none
+                        
+
+                
+                    }
+                    .courses{
+                        background-color: #003412;
+                        color: white;
+                        border: none;
+                        padding: 7px;
+                        margin-top: -7px;
+                        :hover{
+                        
+                    
+                            border-bottom:1px solid yellow;
+                            cursor: pointer;
+    
+                        }
+                        
+                        
+                    }
+                    :hover{
+                        
+                    
+                        border-bottom:1px solid yellow;
+                        cursor: pointer;
+
+                    }
+                    
+                }
+
+            }
+
+        }
+        .nav-three{
+            margin-top: 30px;
+            margin-left: 30px;
+            .nav-2{
+                margin-top: -10px;
+                width: 138px;
+                height: 51px;
+                border-radius: 5px;
+                background-color: #038C33;
+                color: #F9FCFE;
+                cursor: pointer;
+            }
+            
+        }
+
+
+    }
+    .div-one{
+        width: 100%;
+        height: 568px;
+        background-image: url("./thisisengineering-raeng-TXxiFuQLBKQ-unsplashfgjkl\ 1.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+        .two{
+            padding-top: 180px;
+            
+            margin-left: 170px;
+            .give{
+                font-family: Lato;
+                font-style: normal;
+                font-weight: 800;
+                font-size: 25px;
+                line-height: 139.9%;
+                /* or 67px */
+    
+    
+                color: #038C33;
+                .chance{
+                    margin-top: 20px;
+                }
+                
+    
+            }
+            .experts{
+                font-family: Lato;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 24px;
+                /* or 150% */
+    
+    
+                color: #1F6036;
+                margin-top: 25px;
+            }
+            .buttons{
+                margin-top: 35px;
+                .siqn{
+                    background: #038C33;
+                    border-radius: 5px;
+                    height: 51px;
+                    width: 160px;
+                    height: 51px;
+                    font-family: Poppins;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 14px;
+                    line-height: 170.9%;
+                    /* identical to box height, or 24px */
+    
+    
+                    /* SMS/color/menu/bg */
+    
+                    color: #F9FCFE;
+                    margin-right: 30px;
+                    cursor: pointer;
+    
+    
+                }
+                .learn{
+                    background: #ADD9BD;
+                    border-radius: 5px;
+                    width: 160px;
+                    height: 51px;
+                    font-family: Poppins;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 14px;
+                    line-height: 170.9%;
+                    /* identical to box height, or 24px */
+    
+    
+                    color: #1F6036;
+                    cursor: pointer;
+    
+                }
+            }
+
+        }
+       
+
+
+        
+    }
+    .real-jam{
+        padding-left: 100px;
+        display: flex;
+        margin-top: 200px;
+        .real-1{
+            width: 628px;
+            height: 471px;
+            margin-left: 170px;
+
+            
+            
+            
+            .mask{
+                position: absolute;
+                width: 148.94px;
+                height: 148.94px;
+                left: 550px;
+                top: 890.9px;
+                z-index: -1;
+
+
+                transform: rotate(-28.43deg);
+
+            
+
+            }
+            .dinny{
+                position: absolute;
+            
+        
+                border-radius: 50%;
+                
+            
+            }
+            .rectangle{
+                position: absolute;
+                width: 190px;
+                height: 190px;
+                left: 506px;
+                top: 1100px             
+                
+
+
+            }
+        }
+        .real-2{
+            margin-left: -110px;
+            .die{
+                font-family: Lato;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 22px;
+                line-height: 139.9%;
+                /* or 56px */
+
+
+                color: #038C33;
+                h1{
+                    margin-bottom: 18px;
+                }
+
+
+            }
+            .die-1{
+                font-family: Lato;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 24px;
+                /* or 150% */
+
+
+                color: #1F6036;
+                margin-bottom: 18px;
+
+
+            }
+            .numbers{
+                display: flex;
+                .bad{
+                    border-left: 1px solid  #1F6036;
+                    border-right: 1px solid  #1F6036;
+                }
+                
+                    .guy{
+                        font-family: Lato;
+                        font-style: normal;
+                        font-weight: bold;
+                        font-size: 30px;
+                        line-height: 139.9%;
+                        /* identical to box height, or 56px */
+
+
+                        color: #038C33;
+                        padding: 10px;
+                        margin-left: 20px;
+
+                    }
+                    .plain{
+                        font-family: Lato;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 16px;
+                        line-height: 24px;
+                        /* identical to box height, or 150% */
+
+
+                        color: #1F6036;
+                        text-align: center;
+                        margin: 5px;
+                    }
+            
+            }
+            .more{
+                background: #038C33;
+                border-radius: 5px;
+                width: 160px;
+                margin-top: 20px;
+                height: 59px;
+                a{
+                    color: #FFFFFF;
+                    text-decoration: none;
+
+                }
+            }
+
+        }
+
+    }
+
+}
+
+@media screen and (max-width: 550px) {
+    html {
+        font-size: 12px;
+    }
+}
